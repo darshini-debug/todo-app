@@ -2,7 +2,6 @@ from functions import get_todo ,write_todo
 import time
 
 now=time.strftime("%Y-%b-%d %H:%M:%Ss")
-print("the time is:")
 print("IT IS :" ,now)
 
 
