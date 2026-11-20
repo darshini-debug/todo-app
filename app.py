@@ -5,6 +5,7 @@ now=time.strftime("%Y-%b-%d %H:%M:%Ss")
 print("IT IS :" ,now)
 
 
+
 while True:
     user_action=input("enter add or show or edit or complete or  exit: ")
     user_action=user_action.strip()   #to remove th space from the user input line "add " like "add"

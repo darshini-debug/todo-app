@@ -9,3 +9,6 @@ def get_todo(filepath=FILEPATH):          # rather than repitating the code we c
 def write_todo(todo_local, filepath=FILEPATH):
     with open(filepath,'w') as file:
         file.writelines(todo_local)
+
+if __name__=="__main__":
+    print(get_todo())
